@@ -96,6 +96,9 @@ else
 	printf "Please add $OVERLAY_CONFIG to your config.txt\n"
 fi
 
+printf "\nInstall init touch screen to 'normal'"
+hyperpixel4-rotate normal
+
 printf "\nBefore rebooting, use 'hyperpixel4-rotate left/right/normal/inverted' to rotate your display!\n\n"
 printf "  left - Portrait, USB ports on bottom\n"
 printf "  right - Portrait, USB ports on top\n"
