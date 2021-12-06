@@ -25,25 +25,25 @@ function set_display {
 
 if [ "$ORIENTATION" == "right" ]; then
     set_display 1
-    set_matrix 0 1 0 -1 0 1
+    set_matrix -1 0 1 0 -1 1
     exit 0
 fi
 
 if [ "$ORIENTATION" == "left" ]; then
     set_display 3
-    set_matrix 0 -1 1 1 0 0
+    set_matrix 1 0 0 0 1 0
     exit 0
 fi
 
 if [ "$ORIENTATION" == "inverted" ]; then
     set_display 2
-    set_matrix -1 0 1 0 -1 1
+    set_matrix 0 -1 1 1 0 0
     exit 0
 fi
 
 if [ "$ORIENTATION" == "normal" ]; then
     set_display 0
-    set_matrix 1 0 0 0 1 0
+    set_matrix 0 1 0 -1 0 1
     exit 0
 fi
 
