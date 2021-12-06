@@ -97,7 +97,7 @@ else
 fi
 
 printf "\nBefore rebooting, use 'hyperpixel4-rotate left/right/normal/inverted' to rotate your display!\n\n"
-printf "  left - Landscape, power/HDMI on bottom\n"
-printf "  right - Landscape, power/HDMI on top\n"
-printf "  normal - Portrait, USB ports on top\n"
-printf "  inverted - Portrait, USB ports on bottom\n\n"
+printf "  left - Portrait, USB ports on bottom\n"
+printf "  right - Portrait, USB ports on top\n"
+printf "  normal - Landscape, power/HDMI on bottom\n"
+printf "  inverted - Landscape, power/HDMI on bottom\n"
